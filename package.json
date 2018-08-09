@@ -1,0 +1,31 @@
+{
+  "name": "pinterest",
+  "version": "1.0.0",
+  "description": "replica pinterest laboratoria",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalyVerdugoNogue/pinterest.git"
+  },
+  "keywords": [
+    "replica",
+    "pinterest",
+    "laboratoria"
+  ],
+  "author": "Nataly Verdugo Nogue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalyVerdugoNogue/pinterest/issues"
+  },
+  "homepage": "https://github.com/NatalyVerdugoNogue/pinterest#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
