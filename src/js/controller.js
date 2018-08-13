@@ -4,6 +4,7 @@ window.controller = {};
 window.onload = () => {
   window.controller.firstScreen();
   window.model.inputSearch();
+  window.view.modal();
 };
 
 
