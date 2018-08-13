@@ -20,22 +20,22 @@
 
   <!-- barra menu -->
   <div class="row mx-0 barrMenu">
-    <div class="col-auto btn-gen px-2 mx-3">
+    <div class="col-auto btn-gen px-2 mx-sm-3 mx-1">
       <img src="src/img/logoPinterest.png" class="rounded-circle picLogo mt-2 pb-0" alt="logo">
     </div>
     <div class="col-input btn-input mt-1 p-0">
       <div class="row mx-0">
-        <div class="col-auto p-2">
-          <button id="btnSearch" class="btn-search" type="button" onclick="window.model.getImagesSearch()">
+        <div class="col-sm-auto col-2 p-sm-2 p-0">
+          <button id="btnSearch" class="btn-search" type="button" onclick="window.controller.searchScreen()">
             <i class="fas fa-search colorIcon"></i>
           </button>
         </div>
-        <div class="col pt-1 px-0 text">
+        <div class="col-sm col-10 py-1 px-0 text">
           <input id="inputSearch" type="text" class="input text" placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
         </div>
       </div>
     </div>
-    <div class="col mx-0 pl-3 pr-0">
+    <div class="col mx-0 pl-3 pr-0 pelim">
       <div class="row mx-0">
         <div class="col-auto text px-3 btn-gen py-2 my-1 remove">
           <a>Inicio</a>
@@ -46,25 +46,25 @@
         <div class="col-auto text px-3 btn-gen py-2 my-1 remove">
           <a>Explorar</a>
         </div>
-        <div class="col-auto btn-gen py-2 pl-3 pr-2 respon">
+        <div class="col-auto btn-gen py-sm-2 pl-sm-3 pr-sm-2 py-0 pl-2 pr-1 respon">
           <i class="fas fa-user-friends colorIcon pt-1 mt-1"></i>
         </div>
-        <div class="col-auto btn-gen py-2 px-3 respon">
+        <div class="col-auto btn-gen py-sm-2 px-sm-3 py-0 px-2 respon elim">
           <i class="fas fa-compass colorIcon pt-1 mt-1"></i>
         </div>
-        <div class="col-auto text pl-2 pr-3 pr-md-2 btn-gen py-2 my-1">
+        <div class="col-auto text pl-sm-2 pr-sm-3 px-1 pr-md-2 btn-gen py-sm-2 my-sm-1 pt-1">
           <a>
             <img src="src/img/avatar.jpg" class="rounded-circle picAvatar" alt="avatar">
             <span class="text remove">Nataly</span>
           </a>
         </div>
-        <div class="col-auto btn-gen py-2 px-3">
+        <div class="col-auto btn-gen py-sm-2 px-sm-3 py-0 px-2">
           <i class="fas fa-comment-dots colorIcon pt-1 mt-1"></i>
         </div>
-        <div class="col-auto btn-gen py-2 px-3">
+        <div class="col-auto btn-gen py-sm-2 px-sm-3 py-0 px-2">
           <i class="fas fa-bell colorIcon pt-1 mt-1"></i>
         </div>
-        <div class="col-auto btn-gen py-2 px-3">
+        <div class="col-auto btn-gen py-sm-2 px-sm-3 py-0 px-2">
           <i class="fas fa-ellipsis-h colorIcon pt-1 mt-1"></i>
         </div>
       </div>
@@ -82,101 +82,7 @@
   </div>
 
   <!-- cards -->
-  <div class="card-columns pt-4 mx-2">
-
-    <div class="card px-1">
-      <img class="card-img" src="img/1.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/2.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/3.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/4.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/5.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/6.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/7.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/8.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card px-1">
-      <img class="card-img" src="img/9.jpg" alt="Card image">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-
-
-  </div>
+  <div id="cardImg" class="card-columns pt-sm-4 pt-3 mx-2"></div>
 
 
   <script src="src/js/model.js"></script>

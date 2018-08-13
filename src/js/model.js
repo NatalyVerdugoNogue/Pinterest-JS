@@ -10,11 +10,6 @@
 window.model = {};
 
 
-window.onload = () => {
-  window.model.getRandomImage();
-  window.model.inputSearch();
-};
-
 window.model.inputSearch = () => {
   var input = document.getElementById('inputSearch');
   input.addEventListener('keyup', (event) => {
@@ -27,7 +22,7 @@ window.model.inputSearch = () => {
 
 
 window.model.getRandomImage = () => {
-  return fetch('https://pixabay.com/api/?key=9790155-f60ce239d82231d53d42a71ad&lang=es').then((response) => {
+  return fetch('https://pixabay.com/api/?key=9790155-f60ce239d82231d53d42a71ad&lang=es&per_page=40').then((response) => {
     // si existe respuesta, que me la de en formato json
     if (response.ok) {
       return response.json();
@@ -37,7 +32,8 @@ window.model.getRandomImage = () => {
     }
     // ahora pedire el dato,si hay dato damelo en la variable respuestaJson
   }).then((respuestaJson) => {
-    console.log(respuestaJson);
+    // console.log(respuestaJson);
+
 
     return respuestaJson;
     // todo lo que no funcione capturalo como error
@@ -50,7 +46,7 @@ window.model.getRandomImage = () => {
 window.model.getImagesSearch = () => {
   let searchText = document.getElementById('inputSearch').value;
   let encUri = encodeURIComponent(searchText);
-  return fetch('https://pixabay.com/api/?key=9790155-f60ce239d82231d53d42a71ad&q=' + encUri + '&lang=es').then((response) => {
+  return fetch('https://pixabay.com/api/?key=9790155-f60ce239d82231d53d42a71ad&q=' + encUri + '&lang=es&per_page=40').then((response) => {
     // si existe respuesta, que me la de en formato json
     if (response.ok) {
       return response.json();
