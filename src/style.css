@@ -1,0 +1,153 @@
+button:active {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.picLogo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.picAvatar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.barrMenu {
+  background: white;
+  border-bottom: 1px solid #8e8e8e20;
+  padding: 6px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.text {
+  font-family: 'Ubuntu', sans-serif;
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+.colorIcon {
+  color: #8e8e8e;
+  font-size: 20px;
+}
+
+.btn-gen {
+  background: transparent;
+  border-color: transparent;
+  font-weight: 700;
+  border-radius: 1.5rem;
+}
+
+.btn-search {
+  background: transparent;
+  border-color: transparent;
+}
+
+.btn-gen:hover {
+  background: #00000010;
+}
+
+.btn-gen:active {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 255, 0.5);
+}
+
+.btn-input {
+  background: #8e8e8e20;
+  border-radius: 4px;
+  height: 2.5rem;
+}
+
+.input {
+  background: transparent;
+  border-color: transparent;
+}
+
+.font-btnabs1 {
+  font-size: 1rem;
+}
+
+.font-btnabs15 {
+  font-size: 1.5rem;
+}
+
+.shadow-btnabs {
+  background: white;
+  box-shadow: 0 1px 1px #9999;
+  border: 0;
+}
+
+.shadow-btnabs:hover {
+  background: #fafafae6;
+}
+
+.size-btnabs {
+  width: 36px;
+  height: 36px;
+}
+
+.barrAbs {
+  position: fixed;
+  bottom: 1rem;
+  right: -3px;
+  z-index: 1;
+}
+
+.card-columns {
+  margin-top: 63px;
+  z-index: 0;
+}
+
+.card-img {
+  border-radius: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 255, 0.5);
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .col-input {
+    flex: 0 0 38%;
+    max-width: 38%;
+  }
+  .card-columns {
+    column-count: 3;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+  .respon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .remove {
+    display: none;
+  }
+  .respon {
+    display: initial;
+  }
+  .col-input {
+    flex: 0 0 47%;
+    max-width: 47%;
+  }
+}
