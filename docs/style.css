@@ -1,0 +1,448 @@
+button:active {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+input:active {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+span {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+::placeholder {
+  font-weight: 700;
+  color: #717171;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.picLogo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.picAvatar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.barrMenu {
+  background: white;
+  border-bottom: 1px solid #8e8e8e20;
+  padding: 6px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.text {
+  font-family: 'Ubuntu', sans-serif;
+  color: #717171;
+  font-size: 16px;
+}
+
+.colorIcon {
+  color: #717171;
+  font-size: 20px;
+}
+
+.btn-gen {
+  background: transparent;
+  border-color: transparent;
+  font-weight: 700;
+  border-radius: 1.5rem;
+}
+
+.btn-search {
+  background: transparent;
+  border-color: transparent;
+}
+
+.btn-gen:hover {
+  background: #00000010;
+}
+
+.btn-gen:active {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 255, 0.5);
+}
+
+.btn-input {
+  background: #8e8e8e20;
+  border-radius: 4px;
+  height: 2.5rem;
+}
+
+.input {
+  background: transparent;
+  border-color: transparent;
+}
+
+.font-btnabs1 {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.font-btnabs15 {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.shadow-btnabs {
+  background: white;
+  box-shadow: 0 1px 1px #9999;
+  border: 0;
+}
+
+.shadow-btnabs:hover {
+  background: #fafafae6;
+}
+
+.size-btnabs {
+  width: 40px;
+  height: 40px;
+}
+
+.barrAbs {
+  position: fixed;
+  bottom: 1rem;
+  right: -12px;
+  z-index: 1;
+}
+
+.card-columns {
+  margin-top: 63px;
+  z-index: 0;
+}
+
+.card-img {
+  border-radius: 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background: #8e8e8e40;
+}
+
+.card-text {
+  font-size: 14px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-card {
+  font-size: 12px;
+  color: #717171;
+}
+
+.text-tag {
+  font-size: 10px;
+  color: black;
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+.btn-img {
+  background: transparent;
+  border-color: transparent;
+  border: 0;
+}
+
+.modal-dialog {
+  max-width: 56vw;
+  margin: 4.5rem auto;
+}
+
+.modal-content {
+  border-radius: 8px;
+}
+
+.size-img {
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.btn-url {
+  background: #efefef;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.a-url {
+  color: #333;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-com {
+  color: #333;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 21px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active {
+  color: #333;
+  background-color: #efefef;
+  border-color: #efefef;
+}
+
+.btn-secondary {
+  color: #333;
+  background-color: #efefef;
+  border-color: #efefef;
+}
+
+.btn-secondary:hover {
+  color: #333;
+  background-color: #e2e2e2;
+  border-color: #e2e2e2;
+}
+
+.btn-sec2 {
+  color: #8e8e8e;
+  background-color: #efefef;
+  border: 0;
+  border-radius: 0;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-sec1 {
+  color: #333;
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.border-btn-l {
+  border: 2px solid #efefef;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.border-btn-r {
+  border: 2px solid #efefef;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.listo {
+  border-radius: 6px;
+}
+
+.btn-url:hover {
+  background-color: #e2e2e2;
+  border-color: #e2e2e2;
+}
+
+.text-user {
+  color: #444;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-com-i {
+  font-size: 21px;
+  font-weight: 700;
+  color: #8e8e8e;
+}
+
+.btn-danger {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.line {
+  border-top: 1px solid #efefef;
+}
+
+.modal-input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 3px;
+  border: 1px solid #8e8e8e;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 10rem;
+  border-radius: 3px;
+  border: 1px solid #8e8e8e;
+  resize: none;
+}
+
+.modal-img {
+  border: 2.5px dashed #8e8e8e;
+  border-radius: 1rem;
+}
+
+.camera {
+  font-size: 32px;
+  color: #333;
+}
+
+.pdi-camera {
+  padding-top: 6rem;
+}
+
+.modal-text-camera {
+  font-weight: 700;
+  color: #333;
+}
+
+.modal-title {
+  font-weight: 700;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  padding-left: 18rem;
+}
+
+.close {
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+@media (min-width: 1025px) and (max-width: 2560px) {
+  .col-input {
+    flex: 0 0 52%;
+    max-width: 52%;
+  }
+  .card-columns {
+    column-count: 5;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .respon {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .col-input {
+    flex: 0 0 38%;
+    max-width: 38%;
+  }
+  .card-columns {
+    column-count: 3;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+  .respon {
+    display: none;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .remove {
+    display: none;
+  }
+  .respon {
+    display: initial;
+  }
+  .col-input {
+    flex: 0 0 47%;
+    max-width: 47%;
+  }
+}
+
+@media (max-width: 425px) {
+  .remove {
+    display: none;
+  }
+  .respon {
+    display: initial;
+  }
+  .card-columns {
+    column-count: 3;
+  }
+  .col-input {
+    flex: 0 0 49%;
+    max-width: 49%;
+  }
+  .picLogo {
+    width: 1rem;
+    height: 1rem;
+  }
+  .colorIcon {
+    font-size: 12px;
+  }
+  .picAvatar {
+    width: 14px;
+    height: 14px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .btn-input {
+    height: 24px;
+  }
+  .card-text {
+    font-size: 8px;
+  }
+  .text-tag {
+    font-size: 5px;
+  }
+  .text-card {
+    font-size: 7px;
+  }
+  .card-columns {
+    margin-top: 41px;
+  }
+  .card-img {
+    border-radius: 4px;
+  }
+  .size-btnabs {
+    width: 20px;
+    height: 20px;
+  }
+  .font-btnabs15 {
+    font-size: 14px;
+  }
+  .font-btnabs1 {
+    font-size: 10px;
+  }
+  .barrAbs {
+    right: -4px;
+  }
+}
+
+@media (max-width: 375px) {
+  .col-input {
+    flex: 0 0 42%;
+    max-width: 42%;
+  }
+}
+
+@media (max-width: 320px) {
+  .elim {
+    display: none;
+  }
+  .pelim {
+    padding-left: 0px!important;
+  }
+}
